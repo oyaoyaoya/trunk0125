@@ -1,0 +1,26 @@
+
+    <div class="row">
+       <div class="col s12 m4 l3">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="http://lorempixel.com/100/190/nature/6">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>自己紹介です。</br>自己紹介です。</br>自己紹介です。</br>自己紹介です。</br></p>
+                </div>
+                <div class="card-action">
+                  <a href="#">User画面にとぶ</a>
+                </div>
+              </div>
+            </div>
+       </div>
+
+       <div class="col s12 m8 l9">
+         <ul class="collection">
+           <% 2.times do%>
+             <%= render 'tweets' %>
+           <% end %>
+         </ul>
+       </div>
+    </div>

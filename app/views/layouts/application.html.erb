@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trunk0125</title>
+    <%= csrf_meta_tags %>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <nav class = "#42a5f5 blue lighten-1 two_nav">
+    <div class="nav-wrapper two_nav_wrap">
+      <a href="#" class="brand-logo two_logo">Twitter</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">tweetする</a></li>
+      </ul>
+    </div>
+  </nav>
+  <body>
+    <div id="contents">
+       <%= yield %>
+    </div>
+  </body>
+</html>
